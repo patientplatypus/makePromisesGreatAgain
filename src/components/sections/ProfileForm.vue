@@ -36,7 +36,7 @@
           lastName: this.user.lastName,
           email: this.user.email
         }
-
+        console.log('value of action in Auth[action]: ', action)
         Auth[action](this.$store.state, userProfileData)
         .then((userData) => {
           this[ACTION_TYPES.LOGIN](userData)

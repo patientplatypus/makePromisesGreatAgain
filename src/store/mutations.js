@@ -32,7 +32,12 @@ export default {
   [MUTATION_TYPES.UPDATE_USER_BLOCKCHAIN_STATUS] (state) {
     const hasWeb3InjectedBrowser = state.web3.isInjected
     const hasCoinbase = !!(state.web3.coinbase && state.web3.coinbase !== '')
+    console.log('inside UPDATE_USER_BLOCKCHAIN_STATUS')
+    console.log('value of isConnectedToApprovedNetwork')
     const isConnectedToApprovedNetwork = !!(state.web3.networkId && state.web3.networkId !== '' && state.web3.networkId === APPROVED_NETWORK_ID)
+    console.log(isConnectedToApprovedNetwork)
+    console.log('state.web3.networkId', state.web3.networkId)
+
     const web3Status = {
       coinbase: state.web3.coinbase,
       hasWeb3InjectedBrowser,

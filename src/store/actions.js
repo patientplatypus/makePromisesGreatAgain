@@ -11,12 +11,14 @@ export default {
         commit(MUTATION_TYPES.REGISTER_WEB3_INSTANCE, {
           result,
           callback: (state) => {
+            console.log('value of state in ACTION_TYPES.REGISTER_WEB3_INSTANCE success, ', state)
             monitorWeb3(state)
             resolve()
           }
         })
       })
       .catch((e) => {
+        console.log('failed to call REGISTER_WEB3_INSTANCE MUTATION FROM ACTION with error code; ', e)
         if (e.result) {
           const result = e.result
           commit(MUTATION_TYPES.REGISTER_WEB3_INSTANCE, {

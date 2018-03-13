@@ -15,7 +15,7 @@ let getWeb3 = new Promise(function (resolve, reject) {
       })
     } else {
       reject({
-        result: null,
+        result: 'failed to connect to web3 ~patientplatypus',
         err: 'Unable to connect to Web3'
       })
     }

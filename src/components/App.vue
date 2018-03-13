@@ -45,16 +45,26 @@ export default {
     Web3Message
   },
   beforeCreate: function () {
+    // this.$store.dispatch(ACTION_TYPES.REGISTER_WEB3_INSTANCE)
+    // .then(() => {
+    //   this.$store.dispatch(ACTION_TYPES.UPDATE_USER_BLOCKCHAIN_STATUS)
+    // })
+    // .catch((result) => {
+    //   console.log("We've encountered problems with your Web3 connection")
+    // })
+  },
+  created: function () {
     this.$store.dispatch(ACTION_TYPES.REGISTER_WEB3_INSTANCE)
     .then(() => {
       this.$store.dispatch(ACTION_TYPES.UPDATE_USER_BLOCKCHAIN_STATUS)
+    }).then(() => {
+      this[ACTION_TYPES.CHANGE_CURRENT_ROUTE_TO](this.$route)
     })
     .catch((result) => {
       console.log("We've encountered problems with your Web3 connection")
     })
-  },
-  created: function () {
-    this[ACTION_TYPES.CHANGE_CURRENT_ROUTE_TO](this.$route)
+    // this[ACTION_TYPES.CHANGE_CURRENT_ROUTE_TO](this.$route)
+    // this.$store.dispatch(ACTION_TYPES.UPDATE_USER_BLOCKCHAIN_STATUS)
   },
   methods: {
     ...mapActions([

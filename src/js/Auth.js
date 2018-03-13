@@ -41,18 +41,22 @@ class Auth {
             contractInstance.signup(data.firstName, data.lastName, data.email, { from: coinbase, gas: 4444444 })
             .then((result) => {
               // Successful Sign-up
+              console.log('value of result in signup')
               resolve(data)
             })
             .catch((e) => {
+              console.log('value of e in signup')
               reject(e)
             })
           })
         }
       })
       .then((result) => {
+        console.log('value of resul2 in signup')
         resolve(result)
       })
       .catch((err) => {
+        console.log('value of err in signup', err)
         reject(err)
       })
     })
@@ -67,6 +71,7 @@ class Auth {
             contractInstance.login({from: coinbase})
             .then((result) => {
               // Successful Fetch
+              console.log('value of login result from Auth: ', result)
               resolve(this.getUTF8DataOfResults(state, result))
             })
             .catch((e) => {
@@ -87,9 +92,14 @@ class Auth {
   accessAuthenticationContractWith (dataObject = {}) {
     const state = dataObject.state
     return new Promise(function (resolve, reject) {
-      if (!state || !state.web3 || !(state.web3.instance)) {
+      if (!state || !state.web3) {
+        console.log('value of state in accessAuthenticationContractWith ', state)
+        console.log('value of state.web3 in accessAuthenticationContractWith ', state.web3)
+        console.log('value of state.web3.instance in accessAuthenticationContractWith ', state.web3.instance)
         reject('Web3 is not initialised. Use a Web3 injector')
       } else {
+        console.log('value of APPROVED_NETWORK_ID: ', APPROVED_NETWORK_ID)
+        console.log('value of state.web3.networkId: ', state.web3.networkId)
         if (state.web3.networkId === APPROVED_NETWORK_ID) {
           let authContract = contract(AuthContract)
           authContract.setProvider(state.web3.instance().currentProvider)
