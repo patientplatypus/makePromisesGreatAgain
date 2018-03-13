@@ -4,7 +4,7 @@
   "description": "A vue boilerplate for Ethereum dApps, built on Truffle 4. Uses vuex for state management, vuex-persist for local storage of app state, and vue-router for routing. Authentication functionalities are handled by Smart Contracts running on the Ethereum blockchain.",
   "private": false,
   "scripts": {
-    "dev": "node build/dev-server.js",
+    "dev": "./node_modules/nodemon/bin/nodemon.js build/dev-server.js",
     "start": "node build/dev-server.js",
     "build": "node build/build.js",
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
@@ -19,6 +19,7 @@
     "vuex-persist": "^0.1.8"
   },
   "devDependencies": {
+    "nodemon": "^1.17.1",
     "autoprefixer": "^7.1.6",
     "babel-core": "^6.26.0",
     "babel-eslint": "^7.2.3",
