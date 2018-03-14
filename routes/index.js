@@ -48,7 +48,7 @@ const addedPinky = async(function (stringValue) {
     let loadedPinkyContract = await(loadContract(PINKY_CONTRACT, engine));
     let pinkyContract = await(loadedPinkyContract.at('0x1b01d1f8af3b85f068f5f09f82e7367d63fb74d3'))
     let pinkyReturn = await(pinkyContract.addPinky(stringValue, {from: '0xc3530389304bfebf47bbecd3bd3a2aca1149237b'})); //same as truffle from
-    return JSON.stringify(pinkyReturn);
+    return pinkyReturn;
 });
 
 
@@ -58,7 +58,8 @@ function storePinky(pinkyStruct,res){
     console.log('inside pinky callback');
     console.log('addedReturn=' + pinkyReturn);
     pinkyReturn['ipfshash'] = pinkyStruct
-    res.json({'success':pinkyReturn})
+
+    res.json({'success':JSON.stringify(pinkyReturn)})
   }).catch((error)=>{
     console.log('there was an error : ', error);
   });
