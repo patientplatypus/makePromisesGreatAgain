@@ -21,12 +21,12 @@ const Web3Subprovider = require('web3-provider-engine/subproviders/web3.js');
 const FilterSubprovider = require('web3-provider-engine/subproviders/filters.js');
 
 var ipfsAPI = require('ipfs-api')
-var ipfs = ipfsAPI({host: 'localhost', port: '5001', protocol: 'http'})
+var ipfs = ipfsAPI({host: '34.211.140.66', port: '5001', protocol: 'http'})
 
 const PINKY_CONTRACT = require('../build/contracts/Pinkies.json')
 //const PINKY_CONTRACT = path.resolve(__dirname, '..', 'build', 'contracts', 'Pinkies.json');
 
-const provider = new Web3Subprovider(new Web3.providers.HttpProvider('http://localhost:8545'));
+const provider = new Web3Subprovider(new Web3.providers.HttpProvider('http://34.211.140.66:8545'));
 
 const engine = new ProviderEngine();
 engine.addProvider(new FilterSubprovider());
@@ -39,22 +39,22 @@ function loadContract(file, provider) {
     return new Promise(function (resolve, reject) {
         let contract = TruffleContract(PINKY_CONTRACT);
         contract.setProvider(provider);
-        contract.defaults({address: '0x8d73a037d8d72f736d4de18330a3cfad151ad05a', gas: 45000}); //from address in ganache init
+        contract.defaults({address: '0xea319384136c07fa4aac17c54255216dd63ade97', gas: 45000}); //from address in ganache init
         resolve(contract);
     });
 }
 
 const addedPinky = async(function (stringValue) {
     let loadedPinkyContract = await(loadContract(PINKY_CONTRACT, engine));
-    let pinkyContract = await(loadedPinkyContract.at('0x865d74349364446d247460bd912be698edf93cc3'))
-    let pinkyReturn = await(pinkyContract.addPinky(10, {from: '0x8d73a037d8d72f736d4de18330a3cfad151ad05a'})); //same as truffle from
+    let pinkyContract = await(loadedPinkyContract.at('0xea319384136c07fa4aac17c54255216dd63ade97'))
+    let pinkyReturn = await(pinkyContract.addPinky(10, {from: '0x751ba36e76505006d7aaf004a95071ca6e661c34'})); //same as truffle from
     return pinkyReturn.toString();
 });
 
 const buyPinky = async(function (priceValue) {
     let loadedPinkyContract = await(loadContract(PINKY_CONTRACT, engine));
-    let pinkyContract = await(loadedPinkyContract.at('0x865d74349364446d247460bd912be698edf93cc3'))
-    let pinkyReturn = await(pinkyContract.buyPinky(priceValue, {from: '0x8d73a037d8d72f736d4de18330a3cfad151ad05a'})); //same as truffle from
+    let pinkyContract = await(loadedPinkyContract.at('0xea319384136c07fa4aac17c54255216dd63ade97'))
+    let pinkyReturn = await(pinkyContract.buyPinky(priceValue, {from: '0x751ba36e76505006d7aaf004a95071ca6e661c34'})); //same as truffle from
     return pinkyReturn.toString();
 });
 
