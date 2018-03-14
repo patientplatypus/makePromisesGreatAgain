@@ -57,6 +57,7 @@ function storePinky(pinkyStruct,res){
   addedPinky(pinkyJson).then(function(pinkyReturn) {
     console.log('inside pinky callback');
     console.log('addedReturn=' + pinkyReturn);
+    pinkyReturn['ipfshash'] = pinkyStruct
     res.json({'success':pinkyReturn})
   }).catch((error)=>{
     console.log('there was an error : ', error);
