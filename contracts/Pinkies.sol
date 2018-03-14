@@ -6,6 +6,8 @@ contract Pinkies {
 
   struct pinkyHolder {
     string[] pinkyList;
+    string[] personList1;
+    string[] personList2;
   }
   mapping(address => pinkyHolder) pinkyHolders;
 
@@ -32,12 +34,13 @@ contract Pinkies {
     return tokenPrice;
   }
 
-  function addPinky(string pinkyHash) public returns(uint length){
-    return pinkyHolders[msg.sender].pinkyList.push(pinkyHash);
+  function addPinky(string pinkyHash) public returns(string){
+    pinkyHolders[msg.sender].pinkyList.push(pinkyHash);
+    return pinkyHash;
   }
 
-  function returnPinkies() constant returns(uint length) {
-    return pinkyHolders[msg.sender].pinkyList.length;
+  function returnPinkies() constant returns(string) {
+    return pinkyHolders[msg.sender].pinkyList[0];
   }
 
 

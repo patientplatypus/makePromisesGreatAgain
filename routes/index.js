@@ -39,50 +39,65 @@ function loadContract(file, provider) {
     return new Promise(function (resolve, reject) {
         let contract = TruffleContract(PINKY_CONTRACT);
         contract.setProvider(provider);
-        contract.defaults({address: '0xea319384136c07fa4aac17c54255216dd63ade97', gas: 45000}); //from address in ganache init
+        contract.defaults({address: '0xddf515eed21806bdbc34ce87277467fa343e463c', gas: 40000, gasPrice:100000}); //from address in ganache init
         resolve(contract);
     });
 }
 
 const addedPinky = async(function (stringValue) {
     let loadedPinkyContract = await(loadContract(PINKY_CONTRACT, engine));
-    let pinkyContract = await(loadedPinkyContract.at('0xea319384136c07fa4aac17c54255216dd63ade97'))
-    let pinkyReturn = await(pinkyContract.addPinky(10, {from: '0x751ba36e76505006d7aaf004a95071ca6e661c34'})); //same as truffle from
+    let pinkyContract = await(loadedPinkyContract.at('0xbee14be951b8c9473feda383be66049f8ec8d915'))
+    let pinkyReturn = await(pinkyContract.addPinky(stringValue, {from: '0xddf515eed21806bdbc34ce87277467fa343e463c'})); //same as truffle from
     return pinkyReturn.toString();
 });
 
-const buyPinky = async(function (priceValue) {
-    let loadedPinkyContract = await(loadContract(PINKY_CONTRACT, engine));
-    let pinkyContract = await(loadedPinkyContract.at('0xea319384136c07fa4aac17c54255216dd63ade97'))
-    let pinkyReturn = await(pinkyContract.buyPinky(priceValue, {from: '0x751ba36e76505006d7aaf004a95071ca6e661c34'})); //same as truffle from
-    return pinkyReturn.toString();
-});
 
-router.post('/buyToken', function(req, res, next) {
-  buyPinky(req.body.price).then(function(pinkyReturn) {
-    console.log('inside pinky callback');
-    console.log('return=' + pinkyReturn);
-    // res.json({'success': 'hello there sailor'})
-  }).catch((error)=>{
-    console.log('there was an error : ', error);
-  });
-  res.send('respond with a resource');
-});
-
-
-router.get('/addPinky', function(req, res, next) {
-  addedPinky('hello there sailor').then(function(pinkyReturn) {
+function storePinky(pinkyStruct){
+  var pinkyJson = JSON.stringify(pinkyStruct);
+  addedPinky(pinkyJson).then(function(pinkyReturn) {
     console.log('inside pinky callback');
     console.log('addedReturn=' + pinkyReturn);
-    // res.json({'success': 'hello there sailor'})
+    res.json({'success':pinkyReturn})
   }).catch((error)=>{
     console.log('there was an error : ', error);
   });
-  res.send('respond with a resource');
-});
+}
+
+
+// const buyPinky = async(function (priceValue) {
+//     let loadedPinkyContract = await(loadContract(PINKY_CONTRACT, engine));
+//     let pinkyContract = await(loadedPinkyContract.at('0xea319384136c07fa4aac17c54255216dd63ade97'))
+//     let pinkyReturn = await(pinkyContract.buyPinky(priceValue, {from: '0x751ba36e76505006d7aaf004a95071ca6e661c34'})); //same as truffle from
+//     return pinkyReturn.toString();
+// });
+
+// router.post('/buyToken', function(req, res, next) {
+//   buyPinky(req.body.price).then(function(pinkyReturn) {
+//     console.log('inside pinky callback');
+//     console.log('return=' + pinkyReturn);
+//     // res.json({'success': 'hello there sailor'})
+//   }).catch((error)=>{
+//     console.log('there was an error : ', error);
+//   });
+//   res.send('respond with a resource');
+// });
+
+
+// router.get('/addPinky', function(req, res, next) {
+//   addedPinky('hello there sailor').then(function(pinkyReturn) {
+//     console.log('inside pinky callback');
+//     console.log('addedReturn=' + pinkyReturn);
+//     // res.json({'success': 'hello there sailor'})
+//   }).catch((error)=>{
+//     console.log('there was an error : ', error);
+//   });
+//   res.send('respond with a resource');
+// });
 
 router.post('/addPic', function(req,res,next){
-  console.log('value of req.body.pic: ', req.body.pic);
+
+
+  console.log('value of req.body.pic: ', req.body);
   const reader = new FileReader();
   var url;
   reader.onload = function() {
@@ -97,13 +112,20 @@ router.post('/addPic', function(req,res,next){
       }
       url = `https://ipfs.io/ipfs/${result[0].hash}`
       console.log(`value of hash:${result[0].hash}`);
+      var proposedPinky = {
+        'user1':req.body.user1,
+        'user2':req.body.user2,
+        'hash':`${result[0].hash}`,
+        'url':url
+      }
+      axios.get(url);
+      storePinky(proposedPinky);
 
-      res.json({'url': url});
     })
   }
   console.log("01");
 
-  fs.writeFile("../tmp.txt", req.body.pic, function(err) {
+  fs.writeFile("../tmp.txt", req.body, function(err) {
       if(err) {
           return console.log(err);
       }else{
