@@ -4,7 +4,8 @@
  * Module dependencies.
  */
 
-var app = require('../app');
+var appv = require('../app');
+var app = appv.app;
 var debug = require('debug')('makepromisesgreatagain-api:server');
 var http = require('http');
 

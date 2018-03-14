@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "dev": "./node_modules/nodemon/bin/nodemon.js ./bin/www"
+    "dev": "truffle compile | truffle migration -rest |./node_modules/nodemon/bin/nodemon.js ./bin/www"
   },
   "dependencies": {
     "asyncawait": "^1.0.6",

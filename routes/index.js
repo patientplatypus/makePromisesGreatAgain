@@ -262,20 +262,15 @@ const addedPinky = async(function (stringValue) {
     let loadedPinkyContract = await(loadContract(PINKY_CONTRACT, engine));
     console.log('1');
     //let pinkyContract = await(loadedPinkyContract.deployed());
-    let pinkyContract = await(loadedPinkyContract.at('0xe2fb0909102a786e3de2312850d64ebe42e3c9fb'))
-    console.log('2');
-    console.log('value of stringValue', stringValue);
-    console.log('and typeOf', typeof stringValue);
-    console.log(pinkyContract);
-    let pinkyAddReturn = await(pinkyContract.pricePinky(10, {from: '0x7add5e7fea32bc972785fd070c134169ed891195'}));
-    console.log('3');
+    let pinkyContract = await(loadedPinkyContract.at('0x2e5fb40a1f4dc06967e5f1098638fab85c3ad1c5'))   
+    let pinkyAddReturn = await(pinkyContract.pricePinky(10, {from: '0x1ac1bcd2a7ba72fd3fdcccce7a04d607bc022dad'}));
     return pinkyAddReturn.toString();
 });
 
 addedPinky('hello there sailor').then(function(addedReturn) {
     console.log('inside addPinky callback');
     console.log('addedReturn=' + addedReturn);
-    res.json({'success': 'hello there sailor'})
+    // res.json({'success': 'hello there sailor'})
   }).catch((error)=>{
     console.log('there was an error : ', error);
   });
@@ -291,6 +286,9 @@ addedPinky('hello there sailor').then(function(addedReturn) {
 //   });
 //
 // });
+router.get('/', function(req, res, next) {
+    res.render('index', {title: "home"});
+  });
 
 
 

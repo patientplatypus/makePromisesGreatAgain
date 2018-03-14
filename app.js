@@ -5,20 +5,32 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var cors = require('cors');
-var admin = require('firebase-admin');
-var firebase = require('firebase');
+const admin = require('firebase-admin');
+const firebase = require('firebase');
 var pry = require('pryjs');
 
 var index = require('./routes/index');
 var users = require('./routes/users');
 
-var serviceAccount = require("./keys/makepromisesgreatagain-firebase-adminsdk-vb3mc-2dc68ca54f.json");
+let serviceAccount = require("./keys/makepromisesgreatagain-firebase-adminsdk-vb3mc-2dc68ca54f.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
   databaseURL: "https://makepromisesgreatagain.firebaseio.com"
 });
-
+const db = admin.database();
+const ref = db.ref('server')
+// var usersRef = ref.child("users/larrycherry");
+//   username = "larrycherry"
+//   usersRef.set({
+//     profile: {
+//     walletAdd: "",
+//     email: "larry.cherry.0406@gmail.com",
+//     firstName: "larry",
+//     lastName: "cherry",
+//     pw: "password"
+//   }
+//   })
 // eval(pry.it);
 var app = express();
 
@@ -57,4 +69,9 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-module.exports = app;
+module.exports = {
+  app,
+  db,
+  ref,
+  admin
+};
