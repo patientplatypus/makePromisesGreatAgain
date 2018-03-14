@@ -39,20 +39,20 @@ function loadContract(file, provider) {
     return new Promise(function (resolve, reject) {
         let contract = TruffleContract(PINKY_CONTRACT);
         contract.setProvider(provider);
-        contract.defaults({address: '0xddf515eed21806bdbc34ce87277467fa343e463c', gas: 40000, gasPrice:100000}); //from address in ganache init
+        contract.defaults({address: '0xc3530389304bfebf47bbecd3bd3a2aca1149237b', gas: 400000}); //from address in ganache init
         resolve(contract);
     });
 }
 
 const addedPinky = async(function (stringValue) {
     let loadedPinkyContract = await(loadContract(PINKY_CONTRACT, engine));
-    let pinkyContract = await(loadedPinkyContract.at('0xbee14be951b8c9473feda383be66049f8ec8d915'))
-    let pinkyReturn = await(pinkyContract.addPinky(stringValue, {from: '0xddf515eed21806bdbc34ce87277467fa343e463c'})); //same as truffle from
-    return pinkyReturn.toString();
+    let pinkyContract = await(loadedPinkyContract.at('0x1b01d1f8af3b85f068f5f09f82e7367d63fb74d3'))
+    let pinkyReturn = await(pinkyContract.addPinky(stringValue, {from: '0xc3530389304bfebf47bbecd3bd3a2aca1149237b'})); //same as truffle from
+    return JSON.stringify(pinkyReturn);
 });
 
 
-function storePinky(pinkyStruct){
+function storePinky(pinkyStruct,res){
   var pinkyJson = JSON.stringify(pinkyStruct);
   addedPinky(pinkyJson).then(function(pinkyReturn) {
     console.log('inside pinky callback');
@@ -119,7 +119,7 @@ router.post('/addPic', function(req,res,next){
         'url':url
       }
       axios.get(url);
-      storePinky(proposedPinky);
+      storePinky(proposedPinky,res);
 
     })
   }
