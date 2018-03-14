@@ -223,51 +223,71 @@ const WalletSubprovider = require('web3-provider-engine/subproviders/wallet.js')
 const Web3Subprovider = require('web3-provider-engine/subproviders/web3.js');
 const FilterSubprovider = require('web3-provider-engine/subproviders/filters.js');
 
-const PINKY_CONTRACT = path.resolve(__dirname, '..', 'build', 'contracts', 'Pinkies.json');
+const PINKY_CONTRACT = require('../build/contracts/Pinkies.json')
+//const PINKY_CONTRACT = path.resolve(__dirname, '..', 'build', 'contracts', 'Pinkies.json');
 
 const engine = new ProviderEngine();
 engine.addProvider(new FilterSubprovider());
-engine.addProvider(new Web3Subprovider(new Web3.providers.HttpProvider('http://localhost:8545')));
+engine.addProvider(new Web3Subprovider(new Web3.providers.HttpProvider('http://localhost:7545')));
 engine.start();
 
 
 function loadContract(file, provider) {
     return new Promise(function (resolve, reject) {
-        fs.readFile(file, 'utf-8', function (err, data) {
-            if (err) {
-                reject(err);
-            } else {
-                let contract = TruffleContract(JSON.parse(data));
-                contract.setProvider(provider);
-                contract.defaults({ gas: 45000 });
-                resolve(contract);
-            }
-        });
+        // fs.readFile(file, 'utf-8', function (err, data) {
+        //     if (err) {
+        //         reject(err);
+        //     } else {
+        //         console.log('else in loadContract function');
+        //         let contract = TruffleContract(JSON.parse(data));
+        //         contract.setProvider(provider);
+        //         contract.defaults({ gas: 45000 });
+        //         console.log('before resolve');
+        //         resolve(contract);
+        //         console.log('after resolve');
+        //     }
+        // });
+        let contract = TruffleContract(PINKY_CONTRACT);
+        contract.setProvider(provider);
+        contract.defaults({address: '0x627306090abaB3A6e1400e9345bC60c78a8BEf57', gas: 45000});
+        resolve(contract);
     });
 }
 
 const addedPinky = async(function (stringValue) {
     console.log('inside addedPinky');
     let loadedPinkyContract = await(loadContract(PINKY_CONTRACT, engine));
-    let pinkyContract = await(loadedPinkyContract.deployed());
-    let pinkyAddReturn = await(pinkyContract.addPinky(stringValue));
+    console.log('1');
+    //let pinkyContract = await(loadedPinkyContract.deployed());
+    let pinkyContract = await(loadedPinkyContract.at('0x345ca3e014aaf5dca488057592ee47305d9b3e10'))
+    console.log('2');
+    console.log('value of stringValue', stringValue);
+    console.log('and typeOf', typeof stringValue);
+    console.log(pinkyContract);
+    let pinkyAddReturn = await(pinkyContract.pricePinky(10));
+    console.log('3');
     return pinkyAddReturn.toString();
 });
 
-router.get('/addPinky', function(req, res, next) {
-  console.log('inside addPinky');
-
-  addedPinky('hello there sailor').then(function(addedReturn) {
+addedPinky('hello there sailor').then(function(addedReturn) {
     console.log('inside addPinky callback');
     console.log('addedReturn=' + addedReturn);
     res.json({'success': 'hello there sailor'})
   }).catch((error)=>{
     console.log('there was an error : ', error);
   });
-
-  // addedPinky("hello there sailor");
-
-});
+// router.get('/addPinky', function(req, res, next) {
+//   console.log('inside addPinky');
+//
+//   addedPinky('hello there sailor').then(function(addedReturn) {
+//     console.log('inside addPinky callback');
+//     console.log('addedReturn=' + addedReturn);
+//     res.json({'success': 'hello there sailor'})
+//   }).catch((error)=>{
+//     console.log('there was an error : ', error);
+//   });
+//
+// });
 
 
 
