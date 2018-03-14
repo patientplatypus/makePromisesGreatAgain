@@ -14,6 +14,7 @@ contract Pinkies {
     bytes32 picBytes;
     uint tokensBought;
   }
+
   mapping (address => pinky) public pinkyInfo;
 
 

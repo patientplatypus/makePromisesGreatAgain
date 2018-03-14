@@ -156,11 +156,11 @@
       "type": "function"
     }
   ],
-  "bytecode": "0x6060604052341561000f57600080fd5b61069f8061001e6000396000f300606060405260043610610099576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806304fedf9e1461009e57806318425c29146100dd578063530435fe1461014e578063598be311146101775780637021939f146101a05780637ff9b596146101db5780639aba45f814610204578063a6f2ae3a14610227578063f654f7a314610245575b600080fd5b34156100a957600080fd5b6100bf60048080359060200190919050506102d4565b60405180826000191660001916815260200191505060405180910390f35b34156100e857600080fd5b610138600480803590602001908201803590602001908080601f016020809104026020016040519081016040528093929190818152602001838380828437820191505050505050919050506102f8565b6040518082815260200191505060405180910390f35b341561015957600080fd5b61016161037b565b6040518082815260200191505060405180910390f35b341561018257600080fd5b61018a610385565b6040518082815260200191505060405180910390f35b34156101ab57600080fd5b6101c56004808035600019169060200190919050506103d1565b6040518082815260200191505060405180910390f35b34156101e657600080fd5b6101ee6103e9565b6040518082815260200191505060405180910390f35b341561020f57600080fd5b61022560048080359060200190919050506103ef565b005b61022f6103f9565b6040518082815260200191505060405180910390f35b341561025057600080fd5b61027c600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506104e4565b604051808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018360001916600019168152602001828152602001935050505060405180910390f35b6002818154811015156102e357fe5b90600052602060002090016000915090505481565b60008060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600001805480600101828161034d919061052e565b91600052602060002090016000849091909150908051906020019061037392919061055a565b509050919050565b6000600454905090565b60008060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000180549050905090565b60036020528060005260406000206000915090505481565b60045481565b8060048190555050565b6000806004543481151561040957fe5b04905033600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555080600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600201600082825401925050819055508091505090565b60016020528060005260406000206000915090508060000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16908060010154908060020154905083565b8154818355818115116105555781836000526020600020918201910161055491906105da565b5b505050565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061059b57805160ff19168380011785556105c9565b828001600101855582156105c9579182015b828111156105c85782518255916020019190600101906105ad565b5b5090506105d69190610606565b5090565b61060391905b808211156105ff57600081816105f6919061062b565b506001016105e0565b5090565b90565b61062891905b8082111561062457600081600090555060010161060c565b5090565b90565b50805460018160011615610100020316600290046000825580601f106106515750610670565b601f01602090049060005260206000209081019061066f9190610606565b5b505600a165627a7a72305820e640b61e5498a322d082a980b8a9253664bd2a6c6544c76a6872140285b21b410029",
-  "deployedBytecode": "0x606060405260043610610099576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806304fedf9e1461009e57806318425c29146100dd578063530435fe1461014e578063598be311146101775780637021939f146101a05780637ff9b596146101db5780639aba45f814610204578063a6f2ae3a14610227578063f654f7a314610245575b600080fd5b34156100a957600080fd5b6100bf60048080359060200190919050506102d4565b60405180826000191660001916815260200191505060405180910390f35b34156100e857600080fd5b610138600480803590602001908201803590602001908080601f016020809104026020016040519081016040528093929190818152602001838380828437820191505050505050919050506102f8565b6040518082815260200191505060405180910390f35b341561015957600080fd5b61016161037b565b6040518082815260200191505060405180910390f35b341561018257600080fd5b61018a610385565b6040518082815260200191505060405180910390f35b34156101ab57600080fd5b6101c56004808035600019169060200190919050506103d1565b6040518082815260200191505060405180910390f35b34156101e657600080fd5b6101ee6103e9565b6040518082815260200191505060405180910390f35b341561020f57600080fd5b61022560048080359060200190919050506103ef565b005b61022f6103f9565b6040518082815260200191505060405180910390f35b341561025057600080fd5b61027c600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506104e4565b604051808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018360001916600019168152602001828152602001935050505060405180910390f35b6002818154811015156102e357fe5b90600052602060002090016000915090505481565b60008060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600001805480600101828161034d919061052e565b91600052602060002090016000849091909150908051906020019061037392919061055a565b509050919050565b6000600454905090565b60008060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000180549050905090565b60036020528060005260406000206000915090505481565b60045481565b8060048190555050565b6000806004543481151561040957fe5b04905033600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555080600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600201600082825401925050819055508091505090565b60016020528060005260406000206000915090508060000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16908060010154908060020154905083565b8154818355818115116105555781836000526020600020918201910161055491906105da565b5b505050565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061059b57805160ff19168380011785556105c9565b828001600101855582156105c9579182015b828111156105c85782518255916020019190600101906105ad565b5b5090506105d69190610606565b5090565b61060391905b808211156105ff57600081816105f6919061062b565b506001016105e0565b5090565b90565b61062891905b8082111561062457600081600090555060010161060c565b5090565b90565b50805460018160011615610100020316600290046000825580601f106106515750610670565b601f01602090049060005260206000209081019061066f9190610606565b5b505600a165627a7a72305820e640b61e5498a322d082a980b8a9253664bd2a6c6544c76a6872140285b21b410029",
-  "sourceMap": "95:1529:0:-;;;;;;;;;;;;;;;;;",
-  "deployedSourceMap": "95:1529:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;451:26;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;752:131;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;667:81;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;887:114;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;482:46;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;533:22;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;579:84;;;;;;;;;;;;;;;;;;;;;;;;;;1393:229;;;;;;;;;;;;;;;;;;;;;;;402:43;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;451:26;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;752:131::-;803:11;828:12;:24;841:10;828:24;;;;;;;;;;;;;;;:34;;:50;;;;;;;;;;;:::i;:::-;;;;;;;;;;868:9;828:50;;;;;;;;;;;;;;;;;:::i;:::-;;821:57;;752:131;;;:::o;667:81::-;708:10;733;;726:17;;667:81;:::o;887:114::-;929:11;955:12;:24;968:10;955:24;;;;;;;;;;;;;;;:34;;:41;;;;948:48;;887:114;:::o;482:46::-;;;;;;;;;;;;;;;;;:::o;533:22::-;;;;:::o;579:84::-;645:13;632:10;:26;;;;579:84;:::o;1393:229::-;1432:4;1444:16;1475:10;;1463:9;:22;;;;;;;;1444:41;;1528:10;1491:9;:21;1501:10;1491:21;;;;;;;;;;;;;;;:34;;;:47;;;;;;;;;;;;;;;;;;1582:11;1544:9;:21;1554:10;1544:21;;;;;;;;;;;;;;;:34;;;:49;;;;;;;;;;;1606:11;1599:18;;1393:229;;:::o;402:43::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;95:1529::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o",
-  "source": "pragma solidity ^0.4.19; //We have to specify what version of the compiler this code will use\n\ncontract Pinkies {\n\n  // We use the struct datatype to store the voter information.\n\n  struct pinkyHolder {\n    string[] pinkyList;\n  }\n  mapping(address => pinkyHolder) pinkyHolders;\n\n  struct pinky {\n    address pinkyAddress; // The address of the voter\n    bytes32 picBytes;\n    uint tokensBought;\n  }\n  mapping (address => pinky) public pinkyInfo;\n\n\n  bytes32[] public pinkyList;\n\n  mapping (bytes32 => uint) public votesReceived;\n\n  uint public tokenPrice; // Price per token\n\n  function pricePinky(uint pricePerToken) public {\n    tokenPrice = pricePerToken;\n  }\n\n  function getPricePinky() public returns (uint price) {\n    return tokenPrice;\n  }\n\n  function addPinky(string pinkyHash) public returns(uint length){\n    return pinkyHolders[msg.sender].pinkyList.push(pinkyHash);\n  }\n\n  function returnPinkies() constant returns(uint length) {\n    return pinkyHolders[msg.sender].pinkyList.length;\n  }\n\n\n  /* function appendString(string appendMe) returns(uint length) {\n     return myStructs[msg.sender].structArray.push(appendMe);\n   }\n\n   function getCount() constant returns(uint length) {\n     return myStructs[msg.sender].structArray.length;\n   }\n\n   function getStringAtIndex(uint index) constant returns(string value) {\n     return myStructs[msg.sender].structArray[index];\n   } */\n\n  function buy() payable public returns (uint) {\n    uint tokensToBuy = msg.value / tokenPrice;\n    pinkyInfo[msg.sender].pinkyAddress = msg.sender;\n    pinkyInfo[msg.sender].tokensBought += tokensToBuy;\n    return tokensToBuy;\n  }\n}\n",
+  "bytecode": "0x6060604052341561000f57600080fd5b61069f8061001e6000396000f300606060405260043610610099576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806304fedf9e1461009e57806318425c29146100dd578063530435fe1461014e578063598be311146101775780637021939f146101a05780637ff9b596146101db5780639aba45f814610204578063a6f2ae3a14610227578063f654f7a314610245575b600080fd5b34156100a957600080fd5b6100bf60048080359060200190919050506102d4565b60405180826000191660001916815260200191505060405180910390f35b34156100e857600080fd5b610138600480803590602001908201803590602001908080601f016020809104026020016040519081016040528093929190818152602001838380828437820191505050505050919050506102f8565b6040518082815260200191505060405180910390f35b341561015957600080fd5b61016161037b565b6040518082815260200191505060405180910390f35b341561018257600080fd5b61018a610385565b6040518082815260200191505060405180910390f35b34156101ab57600080fd5b6101c56004808035600019169060200190919050506103d1565b6040518082815260200191505060405180910390f35b34156101e657600080fd5b6101ee6103e9565b6040518082815260200191505060405180910390f35b341561020f57600080fd5b61022560048080359060200190919050506103ef565b005b61022f6103f9565b6040518082815260200191505060405180910390f35b341561025057600080fd5b61027c600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506104e4565b604051808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018360001916600019168152602001828152602001935050505060405180910390f35b6002818154811015156102e357fe5b90600052602060002090016000915090505481565b60008060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600001805480600101828161034d919061052e565b91600052602060002090016000849091909150908051906020019061037392919061055a565b509050919050565b6000600454905090565b60008060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000180549050905090565b60036020528060005260406000206000915090505481565b60045481565b8060048190555050565b6000806004543481151561040957fe5b04905033600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555080600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600201600082825401925050819055508091505090565b60016020528060005260406000206000915090508060000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16908060010154908060020154905083565b8154818355818115116105555781836000526020600020918201910161055491906105da565b5b505050565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061059b57805160ff19168380011785556105c9565b828001600101855582156105c9579182015b828111156105c85782518255916020019190600101906105ad565b5b5090506105d69190610606565b5090565b61060391905b808211156105ff57600081816105f6919061062b565b506001016105e0565b5090565b90565b61062891905b8082111561062457600081600090555060010161060c565b5090565b90565b50805460018160011615610100020316600290046000825580601f106106515750610670565b601f01602090049060005260206000209081019061066f9190610606565b5b505600a165627a7a723058205c068989f1221206b9895c8f244d9cba4ec4095dbc608562619a0d5c6dfb23100029",
+  "deployedBytecode": "0x606060405260043610610099576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806304fedf9e1461009e57806318425c29146100dd578063530435fe1461014e578063598be311146101775780637021939f146101a05780637ff9b596146101db5780639aba45f814610204578063a6f2ae3a14610227578063f654f7a314610245575b600080fd5b34156100a957600080fd5b6100bf60048080359060200190919050506102d4565b60405180826000191660001916815260200191505060405180910390f35b34156100e857600080fd5b610138600480803590602001908201803590602001908080601f016020809104026020016040519081016040528093929190818152602001838380828437820191505050505050919050506102f8565b6040518082815260200191505060405180910390f35b341561015957600080fd5b61016161037b565b6040518082815260200191505060405180910390f35b341561018257600080fd5b61018a610385565b6040518082815260200191505060405180910390f35b34156101ab57600080fd5b6101c56004808035600019169060200190919050506103d1565b6040518082815260200191505060405180910390f35b34156101e657600080fd5b6101ee6103e9565b6040518082815260200191505060405180910390f35b341561020f57600080fd5b61022560048080359060200190919050506103ef565b005b61022f6103f9565b6040518082815260200191505060405180910390f35b341561025057600080fd5b61027c600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506104e4565b604051808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018360001916600019168152602001828152602001935050505060405180910390f35b6002818154811015156102e357fe5b90600052602060002090016000915090505481565b60008060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600001805480600101828161034d919061052e565b91600052602060002090016000849091909150908051906020019061037392919061055a565b509050919050565b6000600454905090565b60008060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000180549050905090565b60036020528060005260406000206000915090505481565b60045481565b8060048190555050565b6000806004543481151561040957fe5b04905033600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555080600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600201600082825401925050819055508091505090565b60016020528060005260406000206000915090508060000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16908060010154908060020154905083565b8154818355818115116105555781836000526020600020918201910161055491906105da565b5b505050565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061059b57805160ff19168380011785556105c9565b828001600101855582156105c9579182015b828111156105c85782518255916020019190600101906105ad565b5b5090506105d69190610606565b5090565b61060391905b808211156105ff57600081816105f6919061062b565b506001016105e0565b5090565b90565b61062891905b8082111561062457600081600090555060010161060c565b5090565b90565b50805460018160011615610100020316600290046000825580601f106106515750610670565b601f01602090049060005260206000209081019061066f9190610606565b5b505600a165627a7a723058205c068989f1221206b9895c8f244d9cba4ec4095dbc608562619a0d5c6dfb23100029",
+  "sourceMap": "95:1530:0:-;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "95:1530:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;452:26;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;753:131;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;668:81;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;888:114;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;483:46;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;534:22;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;580:84;;;;;;;;;;;;;;;;;;;;;;;;;;1394:229;;;;;;;;;;;;;;;;;;;;;;;403:43;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;452:26;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;753:131::-;804:11;829:12;:24;842:10;829:24;;;;;;;;;;;;;;;:34;;:50;;;;;;;;;;;:::i;:::-;;;;;;;;;;869:9;829:50;;;;;;;;;;;;;;;;;:::i;:::-;;822:57;;753:131;;;:::o;668:81::-;709:10;734;;727:17;;668:81;:::o;888:114::-;930:11;956:12;:24;969:10;956:24;;;;;;;;;;;;;;;:34;;:41;;;;949:48;;888:114;:::o;483:46::-;;;;;;;;;;;;;;;;;:::o;534:22::-;;;;:::o;580:84::-;646:13;633:10;:26;;;;580:84;:::o;1394:229::-;1433:4;1445:16;1476:10;;1464:9;:22;;;;;;;;1445:41;;1529:10;1492:9;:21;1502:10;1492:21;;;;;;;;;;;;;;;:34;;;:47;;;;;;;;;;;;;;;;;;1583:11;1545:9;:21;1555:10;1545:21;;;;;;;;;;;;;;;:34;;;:49;;;;;;;;;;;1607:11;1600:18;;1394:229;;:::o;403:43::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;95:1530::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o",
+  "source": "pragma solidity ^0.4.19; //We have to specify what version of the compiler this code will use\n\ncontract Pinkies {\n\n  // We use the struct datatype to store the voter information.\n\n  struct pinkyHolder {\n    string[] pinkyList;\n  }\n  mapping(address => pinkyHolder) pinkyHolders;\n\n  struct pinky {\n    address pinkyAddress; // The address of the voter\n    bytes32 picBytes;\n    uint tokensBought;\n  }\n\n  mapping (address => pinky) public pinkyInfo;\n\n\n  bytes32[] public pinkyList;\n\n  mapping (bytes32 => uint) public votesReceived;\n\n  uint public tokenPrice; // Price per token\n\n  function pricePinky(uint pricePerToken) public {\n    tokenPrice = pricePerToken;\n  }\n\n  function getPricePinky() public returns (uint price) {\n    return tokenPrice;\n  }\n\n  function addPinky(string pinkyHash) public returns(uint length){\n    return pinkyHolders[msg.sender].pinkyList.push(pinkyHash);\n  }\n\n  function returnPinkies() constant returns(uint length) {\n    return pinkyHolders[msg.sender].pinkyList.length;\n  }\n\n\n  /* function appendString(string appendMe) returns(uint length) {\n     return myStructs[msg.sender].structArray.push(appendMe);\n   }\n\n   function getCount() constant returns(uint length) {\n     return myStructs[msg.sender].structArray.length;\n   }\n\n   function getStringAtIndex(uint index) constant returns(string value) {\n     return myStructs[msg.sender].structArray[index];\n   } */\n\n  function buy() payable public returns (uint) {\n    uint tokensToBuy = msg.value / tokenPrice;\n    pinkyInfo[msg.sender].pinkyAddress = msg.sender;\n    pinkyInfo[msg.sender].tokensBought += tokensToBuy;\n    return tokensToBuy;\n  }\n}\n",
   "sourcePath": "/Users/patientplatypus/Documents/truffleNode/contracts/Pinkies.sol",
   "ast": {
     "absolutePath": "/Users/patientplatypus/Documents/truffleNode/contracts/Pinkies.sol",
@@ -385,7 +385,7 @@
             "name": "pinkyInfo",
             "nodeType": "VariableDeclaration",
             "scope": 110,
-            "src": "402:43:0",
+            "src": "403:43:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -398,14 +398,14 @@
                 "id": 17,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
-                "src": "411:7:0",
+                "src": "412:7:0",
                 "typeDescriptions": {
                   "typeIdentifier": "t_address",
                   "typeString": "address"
                 }
               },
               "nodeType": "Mapping",
-              "src": "402:26:0",
+              "src": "403:26:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_mapping$_t_address_$_t_struct$_pinky_$16_storage_$",
                 "typeString": "mapping(address => struct Pinkies.pinky storage ref)"
@@ -416,7 +416,7 @@
                 "name": "pinky",
                 "nodeType": "UserDefinedTypeName",
                 "referencedDeclaration": 16,
-                "src": "422:5:0",
+                "src": "423:5:0",
                 "typeDescriptions": {
                   "typeIdentifier": "t_struct$_pinky_$16_storage_ptr",
                   "typeString": "struct Pinkies.pinky storage pointer"
@@ -432,7 +432,7 @@
             "name": "pinkyList",
             "nodeType": "VariableDeclaration",
             "scope": 110,
-            "src": "451:26:0",
+            "src": "452:26:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -444,7 +444,7 @@
                 "id": 21,
                 "name": "bytes32",
                 "nodeType": "ElementaryTypeName",
-                "src": "451:7:0",
+                "src": "452:7:0",
                 "typeDescriptions": {
                   "typeIdentifier": "t_bytes32",
                   "typeString": "bytes32"
@@ -453,7 +453,7 @@
               "id": 22,
               "length": null,
               "nodeType": "ArrayTypeName",
-              "src": "451:9:0",
+              "src": "452:9:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_array$_t_bytes32_$dyn_storage_ptr",
                 "typeString": "bytes32[] storage pointer"
@@ -468,7 +468,7 @@
             "name": "votesReceived",
             "nodeType": "VariableDeclaration",
             "scope": 110,
-            "src": "482:46:0",
+            "src": "483:46:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -481,14 +481,14 @@
                 "id": 24,
                 "name": "bytes32",
                 "nodeType": "ElementaryTypeName",
-                "src": "491:7:0",
+                "src": "492:7:0",
                 "typeDescriptions": {
                   "typeIdentifier": "t_bytes32",
                   "typeString": "bytes32"
                 }
               },
               "nodeType": "Mapping",
-              "src": "482:25:0",
+              "src": "483:25:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_mapping$_t_bytes32_$_t_uint256_$",
                 "typeString": "mapping(bytes32 => uint256)"
@@ -497,7 +497,7 @@
                 "id": 25,
                 "name": "uint",
                 "nodeType": "ElementaryTypeName",
-                "src": "502:4:0",
+                "src": "503:4:0",
                 "typeDescriptions": {
                   "typeIdentifier": "t_uint256",
                   "typeString": "uint256"
@@ -513,7 +513,7 @@
             "name": "tokenPrice",
             "nodeType": "VariableDeclaration",
             "scope": 110,
-            "src": "533:22:0",
+            "src": "534:22:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -524,7 +524,7 @@
               "id": 28,
               "name": "uint",
               "nodeType": "ElementaryTypeName",
-              "src": "533:4:0",
+              "src": "534:4:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -537,7 +537,7 @@
             "body": {
               "id": 38,
               "nodeType": "Block",
-              "src": "626:37:0",
+              "src": "627:37:0",
               "statements": [
                 {
                   "expression": {
@@ -554,7 +554,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 29,
-                      "src": "632:10:0",
+                      "src": "633:10:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -569,13 +569,13 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 31,
-                      "src": "645:13:0",
+                      "src": "646:13:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "632:26:0",
+                    "src": "633:26:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -583,7 +583,7 @@
                   },
                   "id": 37,
                   "nodeType": "ExpressionStatement",
-                  "src": "632:26:0"
+                  "src": "633:26:0"
                 }
               ]
             },
@@ -604,7 +604,7 @@
                   "name": "pricePerToken",
                   "nodeType": "VariableDeclaration",
                   "scope": 39,
-                  "src": "599:18:0",
+                  "src": "600:18:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -615,7 +615,7 @@
                     "id": 30,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "599:4:0",
+                    "src": "600:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -625,17 +625,17 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "598:20:0"
+              "src": "599:20:0"
             },
             "payable": false,
             "returnParameters": {
               "id": 33,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "626:0:0"
+              "src": "627:0:0"
             },
             "scope": 110,
-            "src": "579:84:0",
+            "src": "580:84:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
@@ -644,7 +644,7 @@
             "body": {
               "id": 46,
               "nodeType": "Block",
-              "src": "720:28:0",
+              "src": "721:28:0",
               "statements": [
                 {
                   "expression": {
@@ -654,7 +654,7 @@
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
                     "referencedDeclaration": 29,
-                    "src": "733:10:0",
+                    "src": "734:10:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -663,7 +663,7 @@
                   "functionReturnParameters": 43,
                   "id": 45,
                   "nodeType": "Return",
-                  "src": "726:17:0"
+                  "src": "727:17:0"
                 }
               ]
             },
@@ -678,7 +678,7 @@
               "id": 40,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "689:2:0"
+              "src": "690:2:0"
             },
             "payable": false,
             "returnParameters": {
@@ -691,7 +691,7 @@
                   "name": "price",
                   "nodeType": "VariableDeclaration",
                   "scope": 47,
-                  "src": "708:10:0",
+                  "src": "709:10:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -702,7 +702,7 @@
                     "id": 41,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "708:4:0",
+                    "src": "709:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -712,10 +712,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "707:12:0"
+              "src": "708:12:0"
             },
             "scope": 110,
-            "src": "667:81:0",
+            "src": "668:81:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
@@ -724,7 +724,7 @@
             "body": {
               "id": 63,
               "nodeType": "Block",
-              "src": "815:68:0",
+              "src": "816:68:0",
               "statements": [
                 {
                   "expression": {
@@ -737,7 +737,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 49,
-                        "src": "868:9:0",
+                        "src": "869:9:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_memory_ptr",
                           "typeString": "string memory"
@@ -762,7 +762,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 9,
-                            "src": "828:12:0",
+                            "src": "829:12:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_mapping$_t_address_$_t_struct$_pinkyHolder_$5_storage_$",
                               "typeString": "mapping(address => struct Pinkies.pinkyHolder storage ref)"
@@ -778,7 +778,7 @@
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
                               "referencedDeclaration": 122,
-                              "src": "841:3:0",
+                              "src": "842:3:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
                                 "typeString": "msg"
@@ -792,7 +792,7 @@
                             "memberName": "sender",
                             "nodeType": "MemberAccess",
                             "referencedDeclaration": null,
-                            "src": "841:10:0",
+                            "src": "842:10:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
                               "typeString": "address"
@@ -803,7 +803,7 @@
                           "isPure": false,
                           "lValueRequested": false,
                           "nodeType": "IndexAccess",
-                          "src": "828:24:0",
+                          "src": "829:24:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_pinkyHolder_$5_storage",
                             "typeString": "struct Pinkies.pinkyHolder storage ref"
@@ -817,7 +817,7 @@
                         "memberName": "pinkyList",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": 4,
-                        "src": "828:34:0",
+                        "src": "829:34:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
                           "typeString": "string storage ref[] storage ref"
@@ -831,7 +831,7 @@
                       "memberName": "push",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": null,
-                      "src": "828:39:0",
+                      "src": "829:39:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_arraypush_nonpayable$_t_string_storage_$returns$_t_uint256_$",
                         "typeString": "function (string storage ref) returns (uint256)"
@@ -845,7 +845,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "828:50:0",
+                    "src": "829:50:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -854,7 +854,7 @@
                   "functionReturnParameters": 53,
                   "id": 62,
                   "nodeType": "Return",
-                  "src": "821:57:0"
+                  "src": "822:57:0"
                 }
               ]
             },
@@ -875,7 +875,7 @@
                   "name": "pinkyHash",
                   "nodeType": "VariableDeclaration",
                   "scope": 64,
-                  "src": "770:16:0",
+                  "src": "771:16:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -886,7 +886,7 @@
                     "id": 48,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "770:6:0",
+                    "src": "771:6:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string storage pointer"
@@ -896,7 +896,7 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "769:18:0"
+              "src": "770:18:0"
             },
             "payable": false,
             "returnParameters": {
@@ -909,7 +909,7 @@
                   "name": "length",
                   "nodeType": "VariableDeclaration",
                   "scope": 64,
-                  "src": "803:11:0",
+                  "src": "804:11:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -920,7 +920,7 @@
                     "id": 51,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "803:4:0",
+                    "src": "804:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -930,10 +930,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "802:13:0"
+              "src": "803:13:0"
             },
             "scope": 110,
-            "src": "752:131:0",
+            "src": "753:131:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
@@ -942,7 +942,7 @@
             "body": {
               "id": 76,
               "nodeType": "Block",
-              "src": "942:59:0",
+              "src": "943:59:0",
               "statements": [
                 {
                   "expression": {
@@ -958,7 +958,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 9,
-                          "src": "955:12:0",
+                          "src": "956:12:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_mapping$_t_address_$_t_struct$_pinkyHolder_$5_storage_$",
                             "typeString": "mapping(address => struct Pinkies.pinkyHolder storage ref)"
@@ -974,7 +974,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 122,
-                            "src": "968:3:0",
+                            "src": "969:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
                               "typeString": "msg"
@@ -988,7 +988,7 @@
                           "memberName": "sender",
                           "nodeType": "MemberAccess",
                           "referencedDeclaration": null,
-                          "src": "968:10:0",
+                          "src": "969:10:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
@@ -999,7 +999,7 @@
                         "isPure": false,
                         "lValueRequested": false,
                         "nodeType": "IndexAccess",
-                        "src": "955:24:0",
+                        "src": "956:24:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_pinkyHolder_$5_storage",
                           "typeString": "struct Pinkies.pinkyHolder storage ref"
@@ -1013,7 +1013,7 @@
                       "memberName": "pinkyList",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": 4,
-                      "src": "955:34:0",
+                      "src": "956:34:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
                         "typeString": "string storage ref[] storage ref"
@@ -1027,7 +1027,7 @@
                     "memberName": "length",
                     "nodeType": "MemberAccess",
                     "referencedDeclaration": null,
-                    "src": "955:41:0",
+                    "src": "956:41:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1036,7 +1036,7 @@
                   "functionReturnParameters": 68,
                   "id": 75,
                   "nodeType": "Return",
-                  "src": "948:48:0"
+                  "src": "949:48:0"
                 }
               ]
             },
@@ -1051,7 +1051,7 @@
               "id": 65,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "909:2:0"
+              "src": "910:2:0"
             },
             "payable": false,
             "returnParameters": {
@@ -1064,7 +1064,7 @@
                   "name": "length",
                   "nodeType": "VariableDeclaration",
                   "scope": 77,
-                  "src": "929:11:0",
+                  "src": "930:11:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1075,7 +1075,7 @@
                     "id": 66,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "929:4:0",
+                    "src": "930:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1085,10 +1085,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "928:13:0"
+              "src": "929:13:0"
             },
             "scope": 110,
-            "src": "887:114:0",
+            "src": "888:114:0",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
@@ -1097,7 +1097,7 @@
             "body": {
               "id": 108,
               "nodeType": "Block",
-              "src": "1438:184:0",
+              "src": "1439:184:0",
               "statements": [
                 {
                   "assignments": [
@@ -1110,7 +1110,7 @@
                       "name": "tokensToBuy",
                       "nodeType": "VariableDeclaration",
                       "scope": 109,
-                      "src": "1444:16:0",
+                      "src": "1445:16:0",
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
@@ -1121,7 +1121,7 @@
                         "id": 82,
                         "name": "uint",
                         "nodeType": "ElementaryTypeName",
-                        "src": "1444:4:0",
+                        "src": "1445:4:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -1152,7 +1152,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 122,
-                        "src": "1463:3:0",
+                        "src": "1464:3:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
                           "typeString": "msg"
@@ -1166,7 +1166,7 @@
                       "memberName": "value",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": null,
-                      "src": "1463:9:0",
+                      "src": "1464:9:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -1181,20 +1181,20 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 29,
-                      "src": "1475:10:0",
+                      "src": "1476:10:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "1463:22:0",
+                    "src": "1464:22:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "1444:41:0"
+                  "src": "1445:41:0"
                 },
                 {
                   "expression": {
@@ -1215,7 +1215,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 20,
-                          "src": "1491:9:0",
+                          "src": "1492:9:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_mapping$_t_address_$_t_struct$_pinky_$16_storage_$",
                             "typeString": "mapping(address => struct Pinkies.pinky storage ref)"
@@ -1231,7 +1231,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 122,
-                            "src": "1501:3:0",
+                            "src": "1502:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
                               "typeString": "msg"
@@ -1245,7 +1245,7 @@
                           "memberName": "sender",
                           "nodeType": "MemberAccess",
                           "referencedDeclaration": null,
-                          "src": "1501:10:0",
+                          "src": "1502:10:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
@@ -1256,7 +1256,7 @@
                         "isPure": false,
                         "lValueRequested": false,
                         "nodeType": "IndexAccess",
-                        "src": "1491:21:0",
+                        "src": "1492:21:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_pinky_$16_storage",
                           "typeString": "struct Pinkies.pinky storage ref"
@@ -1270,7 +1270,7 @@
                       "memberName": "pinkyAddress",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": 11,
-                      "src": "1491:34:0",
+                      "src": "1492:34:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
@@ -1287,7 +1287,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 122,
-                        "src": "1528:3:0",
+                        "src": "1529:3:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
                           "typeString": "msg"
@@ -1301,13 +1301,13 @@
                       "memberName": "sender",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": null,
-                      "src": "1528:10:0",
+                      "src": "1529:10:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
                       }
                     },
-                    "src": "1491:47:0",
+                    "src": "1492:47:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -1315,7 +1315,7 @@
                   },
                   "id": 97,
                   "nodeType": "ExpressionStatement",
-                  "src": "1491:47:0"
+                  "src": "1492:47:0"
                 },
                 {
                   "expression": {
@@ -1336,7 +1336,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 20,
-                          "src": "1544:9:0",
+                          "src": "1545:9:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_mapping$_t_address_$_t_struct$_pinky_$16_storage_$",
                             "typeString": "mapping(address => struct Pinkies.pinky storage ref)"
@@ -1352,7 +1352,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 122,
-                            "src": "1554:3:0",
+                            "src": "1555:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
                               "typeString": "msg"
@@ -1366,7 +1366,7 @@
                           "memberName": "sender",
                           "nodeType": "MemberAccess",
                           "referencedDeclaration": null,
-                          "src": "1554:10:0",
+                          "src": "1555:10:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
@@ -1377,7 +1377,7 @@
                         "isPure": false,
                         "lValueRequested": false,
                         "nodeType": "IndexAccess",
-                        "src": "1544:21:0",
+                        "src": "1545:21:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_pinky_$16_storage",
                           "typeString": "struct Pinkies.pinky storage ref"
@@ -1391,7 +1391,7 @@
                       "memberName": "tokensBought",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": 15,
-                      "src": "1544:34:0",
+                      "src": "1545:34:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -1406,13 +1406,13 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 83,
-                      "src": "1582:11:0",
+                      "src": "1583:11:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "1544:49:0",
+                    "src": "1545:49:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1420,7 +1420,7 @@
                   },
                   "id": 105,
                   "nodeType": "ExpressionStatement",
-                  "src": "1544:49:0"
+                  "src": "1545:49:0"
                 },
                 {
                   "expression": {
@@ -1430,7 +1430,7 @@
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
                     "referencedDeclaration": 83,
-                    "src": "1606:11:0",
+                    "src": "1607:11:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1439,7 +1439,7 @@
                   "functionReturnParameters": 81,
                   "id": 107,
                   "nodeType": "Return",
-                  "src": "1599:18:0"
+                  "src": "1600:18:0"
                 }
               ]
             },
@@ -1454,7 +1454,7 @@
               "id": 78,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1405:2:0"
+              "src": "1406:2:0"
             },
             "payable": true,
             "returnParameters": {
@@ -1467,7 +1467,7 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "scope": 109,
-                  "src": "1432:4:0",
+                  "src": "1433:4:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1478,7 +1478,7 @@
                     "id": 79,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1432:4:0",
+                    "src": "1433:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1488,20 +1488,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1431:6:0"
+              "src": "1432:6:0"
             },
             "scope": 110,
-            "src": "1393:229:0",
+            "src": "1394:229:0",
             "stateMutability": "payable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
         "scope": 111,
-        "src": "95:1529:0"
+        "src": "95:1530:0"
       }
     ],
-    "src": "0:1625:0"
+    "src": "0:1626:0"
   },
   "legacyAST": {
     "absolutePath": "/Users/patientplatypus/Documents/truffleNode/contracts/Pinkies.sol",
@@ -1726,7 +1726,7 @@
             "name": "pinkyInfo",
             "nodeType": "VariableDeclaration",
             "scope": 110,
-            "src": "402:43:0",
+            "src": "403:43:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -1739,14 +1739,14 @@
                 "id": 17,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
-                "src": "411:7:0",
+                "src": "412:7:0",
                 "typeDescriptions": {
                   "typeIdentifier": "t_address",
                   "typeString": "address"
                 }
               },
               "nodeType": "Mapping",
-              "src": "402:26:0",
+              "src": "403:26:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_mapping$_t_address_$_t_struct$_pinky_$16_storage_$",
                 "typeString": "mapping(address => struct Pinkies.pinky storage ref)"
@@ -1757,7 +1757,7 @@
                 "name": "pinky",
                 "nodeType": "UserDefinedTypeName",
                 "referencedDeclaration": 16,
-                "src": "422:5:0",
+                "src": "423:5:0",
                 "typeDescriptions": {
                   "typeIdentifier": "t_struct$_pinky_$16_storage_ptr",
                   "typeString": "struct Pinkies.pinky storage pointer"
@@ -1773,7 +1773,7 @@
             "name": "pinkyList",
             "nodeType": "VariableDeclaration",
             "scope": 110,
-            "src": "451:26:0",
+            "src": "452:26:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -1785,7 +1785,7 @@
                 "id": 21,
                 "name": "bytes32",
                 "nodeType": "ElementaryTypeName",
-                "src": "451:7:0",
+                "src": "452:7:0",
                 "typeDescriptions": {
                   "typeIdentifier": "t_bytes32",
                   "typeString": "bytes32"
@@ -1794,7 +1794,7 @@
               "id": 22,
               "length": null,
               "nodeType": "ArrayTypeName",
-              "src": "451:9:0",
+              "src": "452:9:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_array$_t_bytes32_$dyn_storage_ptr",
                 "typeString": "bytes32[] storage pointer"
@@ -1809,7 +1809,7 @@
             "name": "votesReceived",
             "nodeType": "VariableDeclaration",
             "scope": 110,
-            "src": "482:46:0",
+            "src": "483:46:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -1822,14 +1822,14 @@
                 "id": 24,
                 "name": "bytes32",
                 "nodeType": "ElementaryTypeName",
-                "src": "491:7:0",
+                "src": "492:7:0",
                 "typeDescriptions": {
                   "typeIdentifier": "t_bytes32",
                   "typeString": "bytes32"
                 }
               },
               "nodeType": "Mapping",
-              "src": "482:25:0",
+              "src": "483:25:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_mapping$_t_bytes32_$_t_uint256_$",
                 "typeString": "mapping(bytes32 => uint256)"
@@ -1838,7 +1838,7 @@
                 "id": 25,
                 "name": "uint",
                 "nodeType": "ElementaryTypeName",
-                "src": "502:4:0",
+                "src": "503:4:0",
                 "typeDescriptions": {
                   "typeIdentifier": "t_uint256",
                   "typeString": "uint256"
@@ -1854,7 +1854,7 @@
             "name": "tokenPrice",
             "nodeType": "VariableDeclaration",
             "scope": 110,
-            "src": "533:22:0",
+            "src": "534:22:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -1865,7 +1865,7 @@
               "id": 28,
               "name": "uint",
               "nodeType": "ElementaryTypeName",
-              "src": "533:4:0",
+              "src": "534:4:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -1878,7 +1878,7 @@
             "body": {
               "id": 38,
               "nodeType": "Block",
-              "src": "626:37:0",
+              "src": "627:37:0",
               "statements": [
                 {
                   "expression": {
@@ -1895,7 +1895,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 29,
-                      "src": "632:10:0",
+                      "src": "633:10:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -1910,13 +1910,13 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 31,
-                      "src": "645:13:0",
+                      "src": "646:13:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "632:26:0",
+                    "src": "633:26:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1924,7 +1924,7 @@
                   },
                   "id": 37,
                   "nodeType": "ExpressionStatement",
-                  "src": "632:26:0"
+                  "src": "633:26:0"
                 }
               ]
             },
@@ -1945,7 +1945,7 @@
                   "name": "pricePerToken",
                   "nodeType": "VariableDeclaration",
                   "scope": 39,
-                  "src": "599:18:0",
+                  "src": "600:18:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1956,7 +1956,7 @@
                     "id": 30,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "599:4:0",
+                    "src": "600:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1966,17 +1966,17 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "598:20:0"
+              "src": "599:20:0"
             },
             "payable": false,
             "returnParameters": {
               "id": 33,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "626:0:0"
+              "src": "627:0:0"
             },
             "scope": 110,
-            "src": "579:84:0",
+            "src": "580:84:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
@@ -1985,7 +1985,7 @@
             "body": {
               "id": 46,
               "nodeType": "Block",
-              "src": "720:28:0",
+              "src": "721:28:0",
               "statements": [
                 {
                   "expression": {
@@ -1995,7 +1995,7 @@
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
                     "referencedDeclaration": 29,
-                    "src": "733:10:0",
+                    "src": "734:10:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -2004,7 +2004,7 @@
                   "functionReturnParameters": 43,
                   "id": 45,
                   "nodeType": "Return",
-                  "src": "726:17:0"
+                  "src": "727:17:0"
                 }
               ]
             },
@@ -2019,7 +2019,7 @@
               "id": 40,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "689:2:0"
+              "src": "690:2:0"
             },
             "payable": false,
             "returnParameters": {
@@ -2032,7 +2032,7 @@
                   "name": "price",
                   "nodeType": "VariableDeclaration",
                   "scope": 47,
-                  "src": "708:10:0",
+                  "src": "709:10:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2043,7 +2043,7 @@
                     "id": 41,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "708:4:0",
+                    "src": "709:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -2053,10 +2053,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "707:12:0"
+              "src": "708:12:0"
             },
             "scope": 110,
-            "src": "667:81:0",
+            "src": "668:81:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
@@ -2065,7 +2065,7 @@
             "body": {
               "id": 63,
               "nodeType": "Block",
-              "src": "815:68:0",
+              "src": "816:68:0",
               "statements": [
                 {
                   "expression": {
@@ -2078,7 +2078,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 49,
-                        "src": "868:9:0",
+                        "src": "869:9:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_memory_ptr",
                           "typeString": "string memory"
@@ -2103,7 +2103,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 9,
-                            "src": "828:12:0",
+                            "src": "829:12:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_mapping$_t_address_$_t_struct$_pinkyHolder_$5_storage_$",
                               "typeString": "mapping(address => struct Pinkies.pinkyHolder storage ref)"
@@ -2119,7 +2119,7 @@
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
                               "referencedDeclaration": 122,
-                              "src": "841:3:0",
+                              "src": "842:3:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
                                 "typeString": "msg"
@@ -2133,7 +2133,7 @@
                             "memberName": "sender",
                             "nodeType": "MemberAccess",
                             "referencedDeclaration": null,
-                            "src": "841:10:0",
+                            "src": "842:10:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
                               "typeString": "address"
@@ -2144,7 +2144,7 @@
                           "isPure": false,
                           "lValueRequested": false,
                           "nodeType": "IndexAccess",
-                          "src": "828:24:0",
+                          "src": "829:24:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_pinkyHolder_$5_storage",
                             "typeString": "struct Pinkies.pinkyHolder storage ref"
@@ -2158,7 +2158,7 @@
                         "memberName": "pinkyList",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": 4,
-                        "src": "828:34:0",
+                        "src": "829:34:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
                           "typeString": "string storage ref[] storage ref"
@@ -2172,7 +2172,7 @@
                       "memberName": "push",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": null,
-                      "src": "828:39:0",
+                      "src": "829:39:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_arraypush_nonpayable$_t_string_storage_$returns$_t_uint256_$",
                         "typeString": "function (string storage ref) returns (uint256)"
@@ -2186,7 +2186,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "828:50:0",
+                    "src": "829:50:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -2195,7 +2195,7 @@
                   "functionReturnParameters": 53,
                   "id": 62,
                   "nodeType": "Return",
-                  "src": "821:57:0"
+                  "src": "822:57:0"
                 }
               ]
             },
@@ -2216,7 +2216,7 @@
                   "name": "pinkyHash",
                   "nodeType": "VariableDeclaration",
                   "scope": 64,
-                  "src": "770:16:0",
+                  "src": "771:16:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2227,7 +2227,7 @@
                     "id": 48,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "770:6:0",
+                    "src": "771:6:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string storage pointer"
@@ -2237,7 +2237,7 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "769:18:0"
+              "src": "770:18:0"
             },
             "payable": false,
             "returnParameters": {
@@ -2250,7 +2250,7 @@
                   "name": "length",
                   "nodeType": "VariableDeclaration",
                   "scope": 64,
-                  "src": "803:11:0",
+                  "src": "804:11:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2261,7 +2261,7 @@
                     "id": 51,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "803:4:0",
+                    "src": "804:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -2271,10 +2271,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "802:13:0"
+              "src": "803:13:0"
             },
             "scope": 110,
-            "src": "752:131:0",
+            "src": "753:131:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
@@ -2283,7 +2283,7 @@
             "body": {
               "id": 76,
               "nodeType": "Block",
-              "src": "942:59:0",
+              "src": "943:59:0",
               "statements": [
                 {
                   "expression": {
@@ -2299,7 +2299,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 9,
-                          "src": "955:12:0",
+                          "src": "956:12:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_mapping$_t_address_$_t_struct$_pinkyHolder_$5_storage_$",
                             "typeString": "mapping(address => struct Pinkies.pinkyHolder storage ref)"
@@ -2315,7 +2315,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 122,
-                            "src": "968:3:0",
+                            "src": "969:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
                               "typeString": "msg"
@@ -2329,7 +2329,7 @@
                           "memberName": "sender",
                           "nodeType": "MemberAccess",
                           "referencedDeclaration": null,
-                          "src": "968:10:0",
+                          "src": "969:10:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
@@ -2340,7 +2340,7 @@
                         "isPure": false,
                         "lValueRequested": false,
                         "nodeType": "IndexAccess",
-                        "src": "955:24:0",
+                        "src": "956:24:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_pinkyHolder_$5_storage",
                           "typeString": "struct Pinkies.pinkyHolder storage ref"
@@ -2354,7 +2354,7 @@
                       "memberName": "pinkyList",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": 4,
-                      "src": "955:34:0",
+                      "src": "956:34:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
                         "typeString": "string storage ref[] storage ref"
@@ -2368,7 +2368,7 @@
                     "memberName": "length",
                     "nodeType": "MemberAccess",
                     "referencedDeclaration": null,
-                    "src": "955:41:0",
+                    "src": "956:41:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -2377,7 +2377,7 @@
                   "functionReturnParameters": 68,
                   "id": 75,
                   "nodeType": "Return",
-                  "src": "948:48:0"
+                  "src": "949:48:0"
                 }
               ]
             },
@@ -2392,7 +2392,7 @@
               "id": 65,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "909:2:0"
+              "src": "910:2:0"
             },
             "payable": false,
             "returnParameters": {
@@ -2405,7 +2405,7 @@
                   "name": "length",
                   "nodeType": "VariableDeclaration",
                   "scope": 77,
-                  "src": "929:11:0",
+                  "src": "930:11:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2416,7 +2416,7 @@
                     "id": 66,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "929:4:0",
+                    "src": "930:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -2426,10 +2426,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "928:13:0"
+              "src": "929:13:0"
             },
             "scope": 110,
-            "src": "887:114:0",
+            "src": "888:114:0",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
@@ -2438,7 +2438,7 @@
             "body": {
               "id": 108,
               "nodeType": "Block",
-              "src": "1438:184:0",
+              "src": "1439:184:0",
               "statements": [
                 {
                   "assignments": [
@@ -2451,7 +2451,7 @@
                       "name": "tokensToBuy",
                       "nodeType": "VariableDeclaration",
                       "scope": 109,
-                      "src": "1444:16:0",
+                      "src": "1445:16:0",
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
@@ -2462,7 +2462,7 @@
                         "id": 82,
                         "name": "uint",
                         "nodeType": "ElementaryTypeName",
-                        "src": "1444:4:0",
+                        "src": "1445:4:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -2493,7 +2493,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 122,
-                        "src": "1463:3:0",
+                        "src": "1464:3:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
                           "typeString": "msg"
@@ -2507,7 +2507,7 @@
                       "memberName": "value",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": null,
-                      "src": "1463:9:0",
+                      "src": "1464:9:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -2522,20 +2522,20 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 29,
-                      "src": "1475:10:0",
+                      "src": "1476:10:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "1463:22:0",
+                    "src": "1464:22:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "1444:41:0"
+                  "src": "1445:41:0"
                 },
                 {
                   "expression": {
@@ -2556,7 +2556,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 20,
-                          "src": "1491:9:0",
+                          "src": "1492:9:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_mapping$_t_address_$_t_struct$_pinky_$16_storage_$",
                             "typeString": "mapping(address => struct Pinkies.pinky storage ref)"
@@ -2572,7 +2572,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 122,
-                            "src": "1501:3:0",
+                            "src": "1502:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
                               "typeString": "msg"
@@ -2586,7 +2586,7 @@
                           "memberName": "sender",
                           "nodeType": "MemberAccess",
                           "referencedDeclaration": null,
-                          "src": "1501:10:0",
+                          "src": "1502:10:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
@@ -2597,7 +2597,7 @@
                         "isPure": false,
                         "lValueRequested": false,
                         "nodeType": "IndexAccess",
-                        "src": "1491:21:0",
+                        "src": "1492:21:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_pinky_$16_storage",
                           "typeString": "struct Pinkies.pinky storage ref"
@@ -2611,7 +2611,7 @@
                       "memberName": "pinkyAddress",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": 11,
-                      "src": "1491:34:0",
+                      "src": "1492:34:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
@@ -2628,7 +2628,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 122,
-                        "src": "1528:3:0",
+                        "src": "1529:3:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
                           "typeString": "msg"
@@ -2642,13 +2642,13 @@
                       "memberName": "sender",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": null,
-                      "src": "1528:10:0",
+                      "src": "1529:10:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
                       }
                     },
-                    "src": "1491:47:0",
+                    "src": "1492:47:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -2656,7 +2656,7 @@
                   },
                   "id": 97,
                   "nodeType": "ExpressionStatement",
-                  "src": "1491:47:0"
+                  "src": "1492:47:0"
                 },
                 {
                   "expression": {
@@ -2677,7 +2677,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 20,
-                          "src": "1544:9:0",
+                          "src": "1545:9:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_mapping$_t_address_$_t_struct$_pinky_$16_storage_$",
                             "typeString": "mapping(address => struct Pinkies.pinky storage ref)"
@@ -2693,7 +2693,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 122,
-                            "src": "1554:3:0",
+                            "src": "1555:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
                               "typeString": "msg"
@@ -2707,7 +2707,7 @@
                           "memberName": "sender",
                           "nodeType": "MemberAccess",
                           "referencedDeclaration": null,
-                          "src": "1554:10:0",
+                          "src": "1555:10:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
@@ -2718,7 +2718,7 @@
                         "isPure": false,
                         "lValueRequested": false,
                         "nodeType": "IndexAccess",
-                        "src": "1544:21:0",
+                        "src": "1545:21:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_pinky_$16_storage",
                           "typeString": "struct Pinkies.pinky storage ref"
@@ -2732,7 +2732,7 @@
                       "memberName": "tokensBought",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": 15,
-                      "src": "1544:34:0",
+                      "src": "1545:34:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -2747,13 +2747,13 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 83,
-                      "src": "1582:11:0",
+                      "src": "1583:11:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "1544:49:0",
+                    "src": "1545:49:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -2761,7 +2761,7 @@
                   },
                   "id": 105,
                   "nodeType": "ExpressionStatement",
-                  "src": "1544:49:0"
+                  "src": "1545:49:0"
                 },
                 {
                   "expression": {
@@ -2771,7 +2771,7 @@
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
                     "referencedDeclaration": 83,
-                    "src": "1606:11:0",
+                    "src": "1607:11:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -2780,7 +2780,7 @@
                   "functionReturnParameters": 81,
                   "id": 107,
                   "nodeType": "Return",
-                  "src": "1599:18:0"
+                  "src": "1600:18:0"
                 }
               ]
             },
@@ -2795,7 +2795,7 @@
               "id": 78,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1405:2:0"
+              "src": "1406:2:0"
             },
             "payable": true,
             "returnParameters": {
@@ -2808,7 +2808,7 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "scope": 109,
-                  "src": "1432:4:0",
+                  "src": "1433:4:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2819,7 +2819,7 @@
                     "id": 79,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1432:4:0",
+                    "src": "1433:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -2829,20 +2829,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1431:6:0"
+              "src": "1432:6:0"
             },
             "scope": 110,
-            "src": "1393:229:0",
+            "src": "1394:229:0",
             "stateMutability": "payable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
         "scope": 111,
-        "src": "95:1529:0"
+        "src": "95:1530:0"
       }
     ],
-    "src": "0:1625:0"
+    "src": "0:1626:0"
   },
   "compiler": {
     "name": "solc",
@@ -2878,8 +2878,14 @@
       "links": {},
       "address": "0xe2fb0909102a786e3de2312850d64ebe42e3c9fb",
       "transactionHash": "0x8cdffa002292ae066e8e9f575868dc6b619cf1160338cbad0559ab783c5b1ee8"
+    },
+    "1521012787590": {
+      "events": {},
+      "links": {},
+      "address": "0x865d74349364446d247460bd912be698edf93cc3",
+      "transactionHash": "0x537dac105b284bd468cb3185c780b923faedb75377437cb43dee0fa51e32e9d7"
     }
   },
   "schemaVersion": "2.0.0",
-  "updatedAt": "2018-03-14T07:18:04.061Z"
+  "updatedAt": "2018-03-14T07:33:43.840Z"
 }
