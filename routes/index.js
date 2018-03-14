@@ -226,11 +226,14 @@ const FilterSubprovider = require('web3-provider-engine/subproviders/filters.js'
 const PINKY_CONTRACT = require('../build/contracts/Pinkies.json')
 //const PINKY_CONTRACT = path.resolve(__dirname, '..', 'build', 'contracts', 'Pinkies.json');
 
+const provider = new Web3Subprovider(new Web3.providers.HttpProvider('http://localhost:8545'));
+
 const engine = new ProviderEngine();
 engine.addProvider(new FilterSubprovider());
-engine.addProvider(new Web3Subprovider(new Web3.providers.HttpProvider('http://localhost:7545')));
+engine.addProvider(provider);
 engine.start();
 
+var web3 = new Web3(provider);
 
 function loadContract(file, provider) {
     return new Promise(function (resolve, reject) {
@@ -249,7 +252,7 @@ function loadContract(file, provider) {
         // });
         let contract = TruffleContract(PINKY_CONTRACT);
         contract.setProvider(provider);
-        contract.defaults({address: '0x627306090abaB3A6e1400e9345bC60c78a8BEf57', gas: 45000});
+        contract.defaults({address: '0x7add5e7fea32bc972785fd070c134169ed891195', gas: 45000});
         resolve(contract);
     });
 }
@@ -259,12 +262,12 @@ const addedPinky = async(function (stringValue) {
     let loadedPinkyContract = await(loadContract(PINKY_CONTRACT, engine));
     console.log('1');
     //let pinkyContract = await(loadedPinkyContract.deployed());
-    let pinkyContract = await(loadedPinkyContract.at('0x345ca3e014aaf5dca488057592ee47305d9b3e10'))
+    let pinkyContract = await(loadedPinkyContract.at('0xe2fb0909102a786e3de2312850d64ebe42e3c9fb'))
     console.log('2');
     console.log('value of stringValue', stringValue);
     console.log('and typeOf', typeof stringValue);
     console.log(pinkyContract);
-    let pinkyAddReturn = await(pinkyContract.pricePinky(10));
+    let pinkyAddReturn = await(pinkyContract.pricePinky(10, {from: '0x7add5e7fea32bc972785fd070c134169ed891195'}));
     console.log('3');
     return pinkyAddReturn.toString();
 });

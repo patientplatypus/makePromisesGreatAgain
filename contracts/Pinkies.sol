@@ -27,6 +27,10 @@ contract Pinkies {
     tokenPrice = pricePerToken;
   }
 
+  function getPricePinky() public returns (uint price) {
+    return tokenPrice;
+  }
+
   function addPinky(string pinkyHash) public returns(uint length){
     return pinkyHolders[msg.sender].pinkyList.push(pinkyHash);
   }
@@ -34,6 +38,7 @@ contract Pinkies {
   function returnPinkies() constant returns(uint length) {
     return pinkyHolders[msg.sender].pinkyList.length;
   }
+
 
   /* function appendString(string appendMe) returns(uint length) {
      return myStructs[msg.sender].structArray.push(appendMe);
