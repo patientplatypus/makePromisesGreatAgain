@@ -12,7 +12,8 @@ var pry = require('pryjs');
 var index = require('./routes/index');
 var users = require('./routes/users');
 
-var serviceAccount = require("./keys/makepromisesgreatagain-firebase-adminsdk-vb3mc-2dc68ca54f.json");
+var serviceAccount = require('./keys/makepromisesgreatagain-firebase-adminsdk-vb3mc-2dc68ca54f.json');
+// var serviceAccount = require('./keys/makepromisesgreateagain-firebase-adminsdk-vb3mc-2dc68ca54f.json');
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
